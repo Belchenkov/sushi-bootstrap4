@@ -1,0 +1,33 @@
+/*pink #D3325F*/
+
+/*white #C9C1AC*/
+
+.info {
+  background: #C9C1AC;
+}
+
+.info h2 {
+  word-spacing: 0.6rem
+}
+
+.info a {
+  transition: all 1s ease-in-out;
+}
+
+.info a:hover {
+  color: #242424;
+
+}
+
+/*header*/
+
+body {
+  /*  min-height: 100vh;*/
+  font-family: 'Mr Dafoe', cursive;
+  color: #C9C1AC;
+}
+
+.primary-color {
+  color: #D3325F;
+}
+
