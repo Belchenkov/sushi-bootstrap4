@@ -1,9 +1,5 @@
-/*pink #D3325F*/
-
-/*white #C9C1AC*/
-
 .info {
-  background: #C9C1AC;
+  background: #93c991;
 }
 
 .info h2 {
@@ -12,6 +8,7 @@
 
 .info a {
   transition: all 1s ease-in-out;
+  text-decoration: none!important;
 }
 
 .info a:hover {
