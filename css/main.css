@@ -16,8 +16,6 @@
 
 }
 
-/*header*/
-
 body {
   /*  min-height: 100vh;*/
   font-family: 'Mr Dafoe', cursive;
@@ -26,5 +24,50 @@ body {
 
 .primary-color {
   color: #D3325F;
+}
+
+/*======== header ========*/
+#header {
+  min-height: calc(100vh - 94px);
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+          url('../img/banner-bcg.jpeg') no-repeat center/cover fixed;
+  position: relative;
+}
+
+.height-90 {
+  min-height: calc(100vh - 94px);
+}
+
+.banner h1 {
+  border-top: 6px dotted #C9C1AC;
+  border-bottom: 6px dotted #C9C1AC;
+}
+
+.main-btn {
+  color: #d3325f;
+  font-size: 2rem;
+  border: 2px solid #d3325f;
+  transition: all 1s ease-in-out;
+}
+
+.main-btn:hover {
+  color: #242424;
+  border: 2px solid #C9C1AC;
+  background: #C9C1AC;
+}
+
+.header-link {
+  display: inline-block;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #C9C1AC;
+  border-radius: 10px;
+  transition: all 2s ease;
+}
+
+.header-link {
+  color: #242424;
 }
 
