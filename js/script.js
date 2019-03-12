@@ -6,7 +6,15 @@ $(document).ready(function () {
 
   });
 
-
+    $('.parent-container').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image',
+        // other options
+        gallery: {
+            // options for gallery
+            enabled: true
+        }
+    });
 /*
 
   $('.navbar-toggler').click(function () {
@@ -47,20 +55,11 @@ $(document).ready(function () {
 
     } else {
       $('#back-to-top').removeClass('scrollTop');
-
     }
   });
 
 
-  $('.parent-container').magnificPopup({
-    delegate: 'a', // child items selector, by clicking on it popup will open
-    type: 'image',
-    // other options
-    gallery: {
-      // options for gallery
-      enabled: true
-    }
-  });
+
 */
 
 
