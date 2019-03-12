@@ -1,13 +1,13 @@
-/*
 $(document).ready(function () {
   //ripples
-  $("#header,.info").ripples({
-    dropRadius: 20,
-    perturbance: 0.06
+  $("#header, .info").ripples({
+    dropRadius: 35,
+    perturbance: 0.1
 
   });
 
 
+/*
 
   $('.navbar-toggler').click(function () {
     $('.navbar-toggler').toggleClass('change');
@@ -61,8 +61,7 @@ $(document).ready(function () {
       enabled: true
     }
   });
-
+*/
 
 
 });
-*/
