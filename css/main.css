@@ -242,3 +242,13 @@ body {
 .about-pictures:hover .about-image:not(:hover) {
   opacity: .5;
 }
+
+/*######### Review ############*/
+.review-item {
+  background: rgba(255, 255, 255, .7);
+  clip-path: polygon(5% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.review-img {
+  width: 150px;
+}
