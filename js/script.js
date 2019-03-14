@@ -1,13 +1,20 @@
-/*
 $(document).ready(function () {
   //ripples
-  $("#header,.info").ripples({
-    dropRadius: 20,
-    perturbance: 0.06
+  $("#header, .info").ripples({
+    dropRadius: 35,
+    perturbance: 0.1
 
   });
 
-
+    $('.parent-container').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image',
+        // other options
+        gallery: {
+            // options for gallery
+            enabled: true
+        }
+    });
 
   $('.navbar-toggler').click(function () {
     $('.navbar-toggler').toggleClass('change');
@@ -41,28 +48,12 @@ $(document).ready(function () {
 
   $(window).scroll(function () {
     let position = $(this).scrollTop();
-    console.log(position);
     if (position >= 718) {
       $('#back-to-top').addClass('scrollTop')
 
     } else {
       $('#back-to-top').removeClass('scrollTop');
-
     }
   });
-
-
-  $('.parent-container').magnificPopup({
-    delegate: 'a', // child items selector, by clicking on it popup will open
-    type: 'image',
-    // other options
-    gallery: {
-      // options for gallery
-      enabled: true
-    }
-  });
-
-
 
 });
-*/
