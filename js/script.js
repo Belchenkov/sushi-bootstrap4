@@ -15,7 +15,6 @@ $(document).ready(function () {
             enabled: true
         }
     });
-/*
 
   $('.navbar-toggler').click(function () {
     $('.navbar-toggler').toggleClass('change');
@@ -49,7 +48,6 @@ $(document).ready(function () {
 
   $(window).scroll(function () {
     let position = $(this).scrollTop();
-    console.log(position);
     if (position >= 718) {
       $('#back-to-top').addClass('scrollTop')
 
@@ -57,10 +55,5 @@ $(document).ready(function () {
       $('#back-to-top').removeClass('scrollTop');
     }
   });
-
-
-
-*/
-
 
 });
