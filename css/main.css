@@ -308,3 +308,16 @@ body {
   color: #d3325f;
   border-color: #C9C1AC;
 }
+
+/* ########## footer ############*/
+#back-to-top {
+  background: #c9c1ac;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.scrollTop {
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+}
